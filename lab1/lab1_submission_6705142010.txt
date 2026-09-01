@@ -1,0 +1,19 @@
+===BEGIN LAB1 SUBMISSION===
+student_id: 6705142010
+timestamp: 2026-09-01T07:55:31Z
+hostname: ubuntu
+---[user: getent passwd]---
+farid799:x:1002:1003::/home/farid799:/bin/sh
+---[group: getent group]---
+netadmins:x:1003:
+---[user-in-group: id]---
+uid=1002(farid799) gid=1003(netadmins) groups=1003(netadmins)
+---[file stat: home file mode/owner]---
+/home/farid799/report_7217.txt mode=700 owner=farid799 group=netadmins
+---[sshd effective config]---
+port 22
+permitrootlogin no
+passwordauthentication no
+---[integrity]---
+sshd_sha256: 62b1a504efd99b3e40ebc9ab71559fe9b36abbe4b6fc8188c7362a0f1260e13f
+===END LAB1 SUBMISSION===
